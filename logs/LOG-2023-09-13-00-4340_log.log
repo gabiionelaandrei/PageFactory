@@ -1,0 +1,24 @@
+00:43:40.728 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+00:43:40.764 [main] INFO  utils.Log -  Started test case :login
+00:43:40.767 [main] INFO  utils.Log - Start time :2023.09.13.00.40
+00:43:40.767 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+00:43:40.783 [main] INFO  utils.Log - Called method<click> on  
+00:43:42.791 [main] INFO  utils.Log - called method <sendKeys> on element <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">
+00:43:42.792 [main] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+00:43:43.033 [main] INFO  utils.Log - called method <sendKeys> on element <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
+00:43:43.033 [main] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+00:43:43.254 [main] INFO  utils.Log - Called method<click> on  
+00:43:55.785 [main] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++
+00:43:55.785 [main] ERROR utils.Log -  Failed test case :login
+00:43:55.786 [main] ERROR utils.Log - Fail time :2023.09.13.00.55
+00:43:55.789 [main] ERROR utils.Log - org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //img[@alt='Zevia Kidz Strawberry Lemonade Zero Calorie Soda' because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//img[@alt='Zevia Kidz Strawberry Lemonade Zero Calorie Soda'' is not a valid XPath expression.
+  (Session info: chrome=116.0.5845.187)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [43392de53c58caafa79022a57f2617d7, findElement {using=xpath, value=//img[@alt='Zevia Kidz Strawberry Lemonade Zero Calorie Soda'}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.187, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\PROBOO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60415}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60415/devtoo..., se:cdpVersion: 116.0.5845.187, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 43392de53c58caafa79022a57f2617d7
+00:43:55.790 [main] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++

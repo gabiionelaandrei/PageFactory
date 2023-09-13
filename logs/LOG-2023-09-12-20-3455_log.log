@@ -1,0 +1,14 @@
+20:34:55.638 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+20:34:55.673 [main] INFO  utils.Log -  Started test case :login
+20:34:55.684 [main] INFO  utils.Log - Start time :2023.09.12.20.55
+20:34:55.684 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+20:34:55.701 [main] INFO  utils.Log - Called method<click> on  
+20:34:57.107 [main] INFO  utils.Log - called method <sendKeys> on element <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">
+20:34:57.108 [main] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+20:34:57.358 [main] INFO  utils.Log - called method <sendKeys> on element <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
+20:34:57.359 [main] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+20:34:57.576 [main] INFO  utils.Log - Called method<click> on  
+20:35:07.935 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+20:35:07.937 [main] INFO  utils.Log -  Passed test case :login
+20:35:07.938 [main] INFO  utils.Log - End time :2023.09.12.20.07
+20:35:07.939 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++

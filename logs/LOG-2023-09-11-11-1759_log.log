@@ -1,0 +1,22 @@
+11:17:59.228 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+11:17:59.263 [main] INFO  utils.Log -  Started test case :login
+11:17:59.264 [main] INFO  utils.Log - Start time :2023.09.11.11.59
+11:17:59.265 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+11:17:59.276 [main] INFO  utils.Log - Called method<click> on  
+11:18:01.020 [main] INFO  utils.Log - called method <sendKeys> on element <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">
+11:18:01.021 [main] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+11:18:01.290 [main] INFO  utils.Log - called method <sendKeys> on element <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
+11:18:01.290 [main] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+11:18:01.511 [main] INFO  utils.Log - Called method<click> on  
+11:18:03.761 [main] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++
+11:18:03.762 [main] ERROR utils.Log -  Failed test case :login
+11:18:03.763 [main] ERROR utils.Log - Fail time :2023.09.11.11.03
+11:18:03.767 [main] ERROR utils.Log - org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLImageElement] has no size and location
+  (Session info: chrome=116.0.5845.180)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [abdc5968462932a871c846d5aec04afe, actions {actions=[org.openqa.selenium.interactions.Sequence@56928e17]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.180, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\PROBOO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55569}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55569/devtoo..., se:cdpVersion: 116.0.5845.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: abdc5968462932a871c846d5aec04afe
+11:18:03.768 [main] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++

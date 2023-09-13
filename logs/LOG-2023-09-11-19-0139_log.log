@@ -1,0 +1,24 @@
+19:01:39.461 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+19:01:39.505 [main] INFO  utils.Log -  Started test case :login
+19:01:39.509 [main] INFO  utils.Log - Start time :2023.09.11.19.39
+19:01:39.509 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+19:01:39.527 [main] INFO  utils.Log - Called method<click> on  
+19:01:41.630 [main] INFO  utils.Log - called method <sendKeys> on element <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">
+19:01:41.631 [main] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+19:01:41.959 [main] INFO  utils.Log - called method <sendKeys> on element <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
+19:01:41.959 [main] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+19:01:42.201 [main] INFO  utils.Log - Called method<click> on  
+19:01:53.541 [main] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++
+19:01:53.542 [main] ERROR utils.Log -  Failed test case :login
+19:01:53.542 [main] ERROR utils.Log - Fail time :2023.09.11.19.53
+19:01:53.546 [main] ERROR utils.Log - org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=116.0.5845.180)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1dbe50e97f12dcc76f8fd0d064a15e35, clickElement {id=4CAA8A90F6A06984DEAF6678C3BE6303_element_240}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.180, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\PROBOO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49322}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49322/devtoo..., se:cdpVersion: 116.0.5845.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1dbe50e97f12dcc76f8fd0d064a15e35)] -> id: terms]
+Session ID: 1dbe50e97f12dcc76f8fd0d064a15e35
+19:01:53.547 [main] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++

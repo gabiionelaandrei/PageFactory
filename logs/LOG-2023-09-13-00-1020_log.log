@@ -1,0 +1,23 @@
+00:10:20.101 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+00:10:20.159 [main] INFO  utils.Log -  Started test case :login
+00:10:20.165 [main] INFO  utils.Log - Start time :2023.09.13.00.20
+00:10:20.165 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+00:10:20.176 [main] INFO  utils.Log - Called method<click> on  
+00:10:22.748 [main] INFO  utils.Log - called method <sendKeys> on element <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">
+00:10:22.749 [main] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+00:10:23.503 [main] INFO  utils.Log - called method <sendKeys> on element <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
+00:10:23.505 [main] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+00:10:24.276 [main] INFO  utils.Log - Called method<click> on  
+00:10:38.192 [main] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++
+00:10:38.193 [main] ERROR utils.Log -  Failed test case :login
+00:10:38.193 [main] ERROR utils.Log - Fail time :2023.09.13.00.38
+00:10:38.206 [main] ERROR utils.Log - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=116.0.5845.187)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [272b969e8ec4e4507fd3551b184fc15b, clickElement {id=98107FE738DC564771ED84A75C682CB4_element_177}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.187, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\PROBOO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58189}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58189/devtoo..., se:cdpVersion: 116.0.5845.187, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (272b969e8ec4e4507fd3551b184fc15b)] -> xpath: //a[contains(text(),'Fresh Produce Melons Each')]]
+Session ID: 272b969e8ec4e4507fd3551b184fc15b
+00:10:38.207 [main] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++

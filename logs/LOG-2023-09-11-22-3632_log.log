@@ -1,0 +1,15 @@
+22:36:32.031 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+22:36:32.067 [main] INFO  utils.Log -  Started test case :login
+22:36:32.070 [main] INFO  utils.Log - Start time :2023.09.11.22.32
+22:36:32.070 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+22:36:32.082 [main] INFO  utils.Log - Called method<click> on  
+22:36:33.589 [main] INFO  utils.Log - called method <sendKeys> on element <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">
+22:36:33.590 [main] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+22:36:33.824 [main] INFO  utils.Log - called method <sendKeys> on element <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
+22:36:33.824 [main] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+22:36:34.032 [main] INFO  utils.Log - Called method<click> on  
+22:36:47.411 [main] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++
+22:36:47.411 [main] ERROR utils.Log -  Failed test case :login
+22:36:47.412 [main] ERROR utils.Log - Fail time :2023.09.11.22.47
+22:36:47.415 [main] ERROR utils.Log - java.lang.AssertionError: expected [false] but found [true]
+22:36:47.415 [main] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++

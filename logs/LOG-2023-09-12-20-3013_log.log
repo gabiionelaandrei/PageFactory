@@ -1,0 +1,23 @@
+20:30:13.739 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+20:30:13.788 [main] INFO  utils.Log -  Started test case :login
+20:30:13.796 [main] INFO  utils.Log - Start time :2023.09.12.20.13
+20:30:13.797 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+20:30:13.819 [main] INFO  utils.Log - Called method<click> on  
+20:30:15.644 [main] INFO  utils.Log - called method <sendKeys> on element <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">
+20:30:15.644 [main] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+20:30:15.872 [main] INFO  utils.Log - called method <sendKeys> on element <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
+20:30:15.873 [main] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+20:30:16.082 [main] INFO  utils.Log - Called method<click> on  
+20:30:20.995 [main] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++
+20:30:20.996 [main] ERROR utils.Log -  Failed test case :login
+20:30:20.996 [main] ERROR utils.Log - Fail time :2023.09.12.20.20
+20:30:21.000 [main] ERROR utils.Log - org.openqa.selenium.InvalidSelectorException: invalid selector: The result of the xpath expression "//li[@class='category-parent  menu-item menu-item-type-taxonomy menu-item-object-product_cat']/a[contains(text(), 'Breakfast & Dairy' )]/text()" is: [object Text]. It should be an element.
+  (Session info: chrome=116.0.5845.187)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [690aaab1b06eda659d4a138c5a270b80, findElement {using=xpath, value=//li[@class='category-parent  menu-item menu-item-type-taxonomy menu-item-object-product_cat']/a[contains(text(), 'Breakfast & Dairy' )]/text()}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.187, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\PROBOO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49154}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49154/devtoo..., se:cdpVersion: 116.0.5845.187, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 690aaab1b06eda659d4a138c5a270b80
+20:30:21.001 [main] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++

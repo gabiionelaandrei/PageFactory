@@ -1,0 +1,8 @@
+23:43:39.025 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+23:43:39.065 [main] INFO  utils.Log -  Started test case :login
+23:43:39.068 [main] INFO  utils.Log - Start time :2023.09.12.23.39
+23:43:39.069 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+23:43:39.087 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+23:43:39.088 [main] INFO  utils.Log -  Skipped test case :login
+23:43:39.090 [main] INFO  utils.Log - Skip time :2023.09.12.23.39
+23:43:39.090 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++

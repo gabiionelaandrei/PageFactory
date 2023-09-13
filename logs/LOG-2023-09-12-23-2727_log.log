@@ -1,0 +1,19 @@
+23:27:27.649 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+23:27:27.686 [main] INFO  utils.Log -  Started test case :login
+23:27:27.690 [main] INFO  utils.Log - Start time :2023.09.12.23.27
+23:27:27.690 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+23:27:27.707 [main] INFO  utils.Log - Called method<click> on  
+23:27:29.160 [main] INFO  utils.Log - called method <sendKeys> on element <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">
+23:27:29.161 [main] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+23:27:29.437 [main] INFO  utils.Log - called method <sendKeys> on element <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
+23:27:29.437 [main] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+23:27:29.670 [main] INFO  utils.Log - Called method<click> on  
+23:28:00.391 [main] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++
+23:28:00.392 [main] ERROR utils.Log -  Failed test case :login
+23:28:00.393 [main] ERROR utils.Log - Fail time :2023.09.12.23.00
+23:28:00.397 [main] ERROR utils.Log - org.openqa.selenium.NoSuchElementException: Cannot locate option with value: selected
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: unknown
+23:28:00.398 [main] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++

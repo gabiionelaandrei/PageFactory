@@ -1,0 +1,23 @@
+21:54:31.362 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+21:54:31.396 [main] INFO  utils.Log -  Started test case :login
+21:54:31.399 [main] INFO  utils.Log - Start time :2023.09.12.21.31
+21:54:31.400 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+21:54:31.415 [main] INFO  utils.Log - Called method<click> on  
+21:54:33.464 [main] INFO  utils.Log - called method <sendKeys> on element <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">
+21:54:33.465 [main] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+21:54:33.779 [main] INFO  utils.Log - called method <sendKeys> on element <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
+21:54:33.780 [main] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+21:54:33.998 [main] INFO  utils.Log - Called method<click> on  
+21:54:45.802 [main] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++
+21:54:45.803 [main] ERROR utils.Log -  Failed test case :login
+21:54:45.803 [main] ERROR utils.Log - Fail time :2023.09.12.21.45
+21:54:45.807 [main] ERROR utils.Log - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@alt ='Fresh Produce Melons Each']"}
+  (Session info: chrome=116.0.5845.187)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8ab23c04e8094451adc80faa3644671d, findElement {using=xpath, value=//img[@alt ='Fresh Produce Melons Each']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.187, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\PROBOO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51625}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51625/devtoo..., se:cdpVersion: 116.0.5845.187, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ab23c04e8094451adc80faa3644671d
+21:54:45.808 [main] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++

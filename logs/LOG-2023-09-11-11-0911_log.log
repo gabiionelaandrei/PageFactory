@@ -1,0 +1,29 @@
+11:09:11.203 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+11:09:11.249 [main] INFO  utils.Log -  Started test case :login
+11:09:11.253 [main] INFO  utils.Log - Start time :2023.09.11.11.11
+11:09:11.255 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+11:09:11.274 [main] INFO  utils.Log - Called method<click> on  
+11:09:13.058 [main] INFO  utils.Log - called method <sendKeys> on element <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">
+11:09:13.059 [main] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+11:09:13.335 [main] INFO  utils.Log - called method <sendKeys> on element <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
+11:09:13.335 [main] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+11:09:14.088 [main] INFO  utils.Log - Called method<click> on  
+11:09:15.221 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+11:09:15.221 [main] INFO  utils.Log -  Passed test case :login
+11:09:15.223 [main] INFO  utils.Log - End time :2023.09.11.11.15
+11:09:15.223 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+11:09:32.097 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+11:09:32.097 [main] INFO  utils.Log -  Started test case :addProduct
+11:09:32.098 [main] INFO  utils.Log - Start time :2023.09.11.11.32
+11:09:32.099 [main] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+11:09:32.111 [main] INFO  utils.Log - Called method<click> on  
+11:09:42.315 [main] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++
+11:09:42.315 [main] ERROR utils.Log -  Failed test case :addProduct
+11:09:42.316 [main] ERROR utils.Log - Fail time :2023.09.11.11.42
+11:09:42.320 [main] ERROR utils.Log - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (2b0e2bfe6c0df7ea090fe54cb62e38d3)] -> css selector: img[class='mobile-logo hide-desktop']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.180, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\PROBOO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55231}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55231/devtoo..., se:cdpVersion: 116.0.5845.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b0e2bfe6c0df7ea090fe54cb62e38d3
+11:09:42.321 [main] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++
