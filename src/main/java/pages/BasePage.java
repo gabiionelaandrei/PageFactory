@@ -15,5 +15,5 @@ public class BasePage extends SeleniumWrappers{
 	public MyAccountPage myAccount = new MyAccountPage(driver);
 	public ProductPage product = new ProductPage(driver);
 	public CategoryPage categories = new CategoryPage(driver);
-	
+	public BlogPage blog = new BlogPage(driver);
 }

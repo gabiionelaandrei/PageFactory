@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite1">
+	<listeners>
+		<listener class-name= "utils.TestNgListener" />
+	</listeners>
+
+	<parameter name = "browser" value="firefox" />
+	<parameter name = "user" value="customer" />
+	<parameter name = "pass" value="customer@123" />
+	<parameter name = "invUser" value="customer123" />
+	<parameter name = "invPass" value="customer@123" />
+	
+
+    <test name="Login" >
+    
+        <classes>
+            <class name="runner.TestRunner" ></class>
+        </classes>
+    </test>
+
+</suite>

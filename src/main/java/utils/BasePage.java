@@ -2,6 +2,7 @@ package utils;
 
 import org.openqa.selenium.WebDriver;
 
+import pages.BlogPage;
 import pages.CategoryPage;
 import pages.MenuPage;
 import pages.ProductPage;
@@ -16,6 +17,6 @@ public class BasePage  extends SeleniumWrappers{
 	public MenuPage menu =  new MenuPage(driver);
 	public ProductPage product =  new ProductPage(driver);
 	public CategoryPage category =  new CategoryPage(driver);
-	
+	public BlogPage blog = new BlogPage(driver);
 	
 }

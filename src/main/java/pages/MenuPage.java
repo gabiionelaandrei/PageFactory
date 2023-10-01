@@ -34,9 +34,9 @@ public class MenuPage extends SeleniumWrappers {
 	
 	@FindBy(xpath = "//div[@class='header-canvas button-item']/a/i") 
 	public WebElement menusTab;
-	
 
-	
+	@FindBy(xpath="//ul[@id='menu-menu-2']/li/a [contains(text(), 'Blog')]")
+	public WebElement blog;
 	
 	
 	public void search(String text) {
